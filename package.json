@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "tscTranspileDev": "npx tsc -w",
+    "tscComp": "npx tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.8.3"
+  }
+}
