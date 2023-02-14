@@ -1,4 +1,5 @@
 import { Tools } from "./parametros.js";
+import { Visible } from "./visibilidad.js";
 
 // let cajaHerramientas: Tools = new Tools("cajaIker");
 // console.log(cajaHerramientas.devolverEstadoCajaHerramientas());
@@ -21,5 +22,14 @@ console.log(registrarEvento({
     title: "Cena de navidad",
     asistentes: ["Papa","Mama","Yo"]
 }));
+
+let data: Tools = new Tools("Iker"); 
+
+let prueba: Visible = new Visible("Iker");
+
+prueba.nombre;
+
+
+
 
 
